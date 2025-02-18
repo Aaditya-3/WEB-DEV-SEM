@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>HTML Login Form</title>
+      <style>
+      body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: sans-serif;
+        line-height: 1.5;
+        min-height: 100vh;
+        flex-direction: column;
+        margin: 0;
+        background-image: url(https://cdn.mos.cms.futurecdn.net/HuGGeENt6kGyixe3hT9tnY.jpg.webp);padding: 0;margin: 0;height:100vh;background-size: cover;background-repeat: no-repeat;
+    }
+    
+
+    h1 {
+        color: hsl(0, 0%, 100%);
+    }
+    
+    .main {
+        text-align: center;
+        background-color: #e6f1fc;
+        padding: 12px 22px;
+        width: 500px;
+    }
+    
+    input {
+        border-radius: 5px;
+        display: block;
+        width: 100%;
+        margin-bottom: 15px;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+    
+    label {
+        margin-top: 12px;
+        display: block;
+        width: 100%;
+        margin-bottom: 6px;
+        text-align: left;
+        color: #555;
+        font-weight: bold;
+    }
+    
+    button {
+        padding: 16px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+        border: none;
+        color: white;
+        cursor: pointer;
+        background-color: #304ee6;
+        width: 100%;
+        font-size: 16px;
+    }
+    
+    </style>
+</head>
+
+<body >
+    <h1 align="center">Registered User Login</h1>
+      <div class="main">
+            <form action="">
+                  <label for="first">First name:</label>
+                  <input type="text" id="first" name="first" placeholder="First name" required>
+                  <label for="password">Last name:</label>
+                  <input type="text" id="password" name="password" placeholder="Last name">
+                  <label for="password">Email</label>
+                  <input type="email" id="password" name="Email" placeholder="Email">
+                  <label for="password">Password(6 or more characters)</label>
+                  <input type="password "id="password" name="password" placeholder="Password">
+                  <p>You agree to all terms and conditions<B>User Agreement, Privacy Policy,</B> and <b>Cookie Policy</b></p>
+
+
+                  <div class="wrap">
+                        <button type="submit"
+                                onclick="solve()">
+                              login
+                        </button>
+                  </div>
+            </form>
+            <p>Already an account?
+                  <a href="#"
+                     style="text-decoration: none;">
+                        Sign in
+                  </a>
+            </p>
+      </div>
+      <p>&copy SPACE</p>
+</body>
+</html>
